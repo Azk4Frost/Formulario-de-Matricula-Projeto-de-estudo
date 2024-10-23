@@ -249,3 +249,19 @@ input[type="checkbox"]:checked {
   
 }
 
+
+.inputWrapperPoliticPrivacy input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid var(--baseColor-Stroke);
+}
+
+.inputWrapperPoliticPrivacy input[type="checkbox"]:checked {
+    background-image: url(../assets/VectorCheckbox.svg);
+    background-size: cover;
+    border: none;
+}
